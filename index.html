@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
+    <!--link de icones do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Css/styles.css">
+
+    <script src="scripts.js" defer></script>
+
+    <title>Portifólio Lucas Silva</title>
+</head>
+
+<body>
+
+    <!--Criando o cabeçalho do site-->
+    <header>
+        <div class="interface" id="inicio">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo1.png" alt="">
+                </a>
+            </div><!--logo-->
+
+            <!--menu de navegação-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidade</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#meus-projetos">projetos</a></li>
+                </ul>
+            </nav>
+
+            <!--Botão de Contato-->
+            <div class="btn-contato">
+                <a href="#contate-me">
+                    <button>Contato</button>
+                </a>
+            </div><!--Botão de Contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <!-- menu-mobile -->
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#especialidades">Especialidade</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#meus-projetos">projetos</a></li>
+                        <li><a href="#contate-me">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!-- menu-mobile -->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div> <!--interface-->
+    </header>
+
+    <!--topo-->
+    <main>
+        <section class="topo-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo">
+                        <h1>Ajudando a transformar ideias em realidade através da programação<span>.</span></h1>
+                        <p>Se você está em busca de alguém comprometido, criativo e apaixonado por desafios,
+                            ficarei feliz em fazer parte do seu próximo projeto!</p>
+
+                        <div class="btn-contato">
+                            <a href="#contate-me"><button>Entre em Contato</button></a>
+                        </div>
+                    </div><!--txt-topo-->
+
+                    <!--imagem a direita do topo-->
+                    <div class="img-topo">
+                        <img src="images/Lucas.png" alt="">
+                    </div><!--imagem a direita do topo-->
+                </div>
+            </div><!--interface-->
+        </section><!--topo-->
+
+        <section class="conhecimentos" id="especialidades">
+            <div class="interface">
+                <h2 class="titulos">MEUS <span>CONHECIMENTOS.</span></h2>
+                <div class="flex">
+                    <div class="conhecimentos-box">
+                        <i><img src="images/logo-html.png" alt=""></i>
+                        <h3>HTML</h3>
+                        <p>É o bloco de construção mais básico da web.
+                            Define o significado e a estrutura do conteúdo da web.</p>
+                    </div><!--conhecimentos-box-->
+
+                    <div class="conhecimentos-box">
+                        <i><img src="images/logo-css.png" alt=""></i>
+                        <h3>CSS</h3>
+                        <p>É usado para estilizar elementos escritos em uma linguagem de marcação como HTML.
+                            O CSS separa o conteúdo da representação visual do site</p>
+                    </div><!--conhecimentos-box-->
+
+                    <div class="conhecimentos-box">
+                        <i><img src="/images/logo-js.png" alt=""></i>
+                        <h3>JAVASCRIPT</h3>
+                        <p> É uma poderosa linguagem de programação que pode adicionar
+                            interatividade a um site.</p>
+                    </div><!--conhecimentos-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--conhecimentos-->
+
+        <!--Sobre mim-->
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="/images/lucas-sobre.png" alt="">
+                    </div>
+                    <div class="sobre-mim">
+                        <h2>MUITO PRAZER, <span>SOU LUCAS SILVA.</span></h2>
+                        <p>Olá! Sou Lucas Silva, um entusiasta da tecnologia
+                            com uma formação inicial em desenvolvimento web e uma mente curiosa que
+                            está sempre buscando aprimorar minhas habilidades. Meu objetivo não é apenas
+                            dominar as linguagens de programação, mas também entender como elas podem
+                            ser aplicadas de maneira criativa para resolver problemas do mundo real.</p>
+                        <p>Quer saber mais? Entre em contato comigo.</p>
+                        <div class="btn-sociais">
+                            <a href="https://www.linkedin.com/in/lucas-de-melo-0897a5211/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/lucasdmrsilva" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.instagram.com/casludemelo/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        </div>
+                    </div><!--class sobre mim-->
+
+
+                </div>
+            </div><!--interface-->
+        </section>
+
+        <!--Projetos-->
+        <section class="projetos" id="meus-projetos">
+                <div class="projetos" id="projetos-id">
+                    <h2 class="titulos">MEUS <span>PROJETOS</span></h2>
+                    <div class="flex conteudo-flex">
+                            <div class="cards">
+                                <img src="/images/netflix.png">
+                                <h5>Netflix</h5>
+                                <p>Projeto em construção.</p> <br>
+                                <a href="" target="_blank">Ver Projeto</a>
+                            </div>
+
+                            <div class="cards">
+                                <img src="/images/calculadora.png">
+                                <h5>Calculadora</h5>
+                                <p>Projeto feito com HTML, <br>
+                                    Css e Javascript.</p>
+                                <a href="" target="_blank">Ver Projeto</a>
+                            </div>
+
+                            <div class="cards">
+                                <img src="/images/cronometro.png">
+                                <h5>Cronômetro</h5>
+                                <p>Projeto feito com HTML, <br>
+                                    Css e Javascript.</p>
+                                <a href="http://127.0.0.1:5501/index.html" target="_blank">Ver Projeto</a>
+                            </div>
+                    </div>
+                </div> <!--flex-->
+            </div>
+        </section> <!--Projetos-->
+
+    </main>
+
+    <!--Rodapé-->
+    <footer id="contate-me">
+        <div class="interface">
+            <div class="linha-rodape"><!--linha de cima-->
+                <div class="flex"><!--flex-->
+                    <div class="logo-rodape"><!--logo rodapé-->
+                        <img src="images/logo1.png" alt="logotipo do rodape">
+                    </div><!--logo rodapé-->
+                    <div class="btn-sociais"><!--btns-->
+                        <a href="https://www.linkedin.com/in/lucas-de-melo-0897a5211/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/lucasdmrsilva" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.instagram.com/casludemelo/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                    </div><!--flex-->
+                </div><!--btns-->
+            </div><!--linha de cima-->
+
+            <div class="linha-rodape borda"><!--linha de baixo-->
+                <p><i class="bi bi-envelope-at-fill"></i> <a
+                        href="mailto:lucasmrsilva1198@gmail.com">lucasmrsilva1198@gmail.com</a></p>
+            </div><!--linha de baixo-->
+
+        </div> <!--interface-->
+    </footer>
+
+</body>
+
+</html>
